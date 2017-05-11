@@ -4,10 +4,13 @@ Website to display creative Indian wedding invitation quotes
 # Installation
 Assume you have Node v4.3.0 installed. Use https://github.com/creationix/nvm if you don't already have this version of Node installed
 
-1. `git clone` the repository
-2. `npm install`
-3. `node app.js` to run node server
-4. Use `gulp dev` when developing. It will watch for file changes and restart the server
+-  `git clone` the repository
+- `npm install`
+- Install and start MySql
+- `node app.js` to run node server
+- Use `gulp dev` when developing. It will watch for file changes and restart the server
+
+Server runs at `localhost:8080`. Refer to `settings.js` file for how to configure your MYSQL endpoints as environment variables
 
 # What is where
 
